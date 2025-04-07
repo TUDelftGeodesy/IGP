@@ -1,6 +1,6 @@
 # IGP templates
 
-Within the `igpprojects` and `igptemplates` folder different **projects** can be setup. 
+Processing templates (read-only)
 
 
 ## Contents
