@@ -1,0 +1,19 @@
+# Input files for space time matrix reduction
+# -------------------------------------------
+
+# All campaign datasets
+[campaign]
+../0_import_campaigns/lts2_levelling_ameland.mat
+../0_import_campaigns/lts2_levelling_vasteland.mat
+../0_import_campaigns/lts2_allgps_v6.0_20220111.mat
+
+# All GNSS CORS datasets 
+[gnss]
+../1_decompose_06gps/06gps_nam_202107_decomposed.mat
+
+# All InSAR datasets
+[insar]
+../0_import_insar/U05_NAM_GTZH_U05_deformation.mat
+../0_import_insar/lauwersmeer_s1_asc_gaussian90_deformation.mat
+../0_import_insar/lauwersmeer_s1_dsc_gaussian90_deformation.mat
+

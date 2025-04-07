@@ -1,0 +1,196 @@
+waddenzee_v7:
+total 56
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 19:25 0_import_06gps
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 19:58 0_import_campaigns
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 15:56 0_import_insar
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  5 13:58 1_decompose_06gps
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 19:30 2_reduce
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 20:28 3_integrate
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  5 10:10 4_predict
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)    0 Jul  7 21:08 9_output
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  995 Jul  5 11:25 doigp.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1494 Jul  4 09:52 doigp.sh
+-rwxr-xr-x 1 hvandermarel DASTUD+Group(513) 1984 Mar  7 09:23 qmatlab
+
+waddenzee_v7/0_import_06gps:
+total 4205
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     361 Jul  7 15:52 00README_METEO.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 4240911 Jul  5 13:57 06gps_nam_202312.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   20615 Jul  5 13:57 06gps_nam_202312_20240705T135636.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   22377 Sep 28  2019 allEventsEdited.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    6890 Jul  7 15:12 igpImport06gps_202312.m
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)       0 Mar  7 16:10 meteo_202312
+
+waddenzee_v7/0_import_06gps/meteo_202312:
+total 92256
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13504428 Apr 25  2020 uurgeg_270_2001-2010.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13508124 Jan 10  2021 uurgeg_270_2011-2020.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  4475407 May 21 14:21 uurgeg_270_2021-2030.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13504428 Apr 25  2020 uurgeg_280_2001-2010.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13508124 Jan 10  2021 uurgeg_280_2011-2020.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  4475407 May 21 14:22 uurgeg_280_2021-2030.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13504428 Apr 25  2020 uurgeg_286_2001-2010.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 13508124 Jan 10  2021 uurgeg_286_2011-2020.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  4475407 May 21 14:25 uurgeg_286_2021-2030.txt
+
+waddenzee_v7/0_import_campaigns:
+total 33432
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    11510 Jun 17 23:13 Overview_of_levelling_campaigns.xlsx
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     4597 Jun 17 18:50 igpImportGPS.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    12223 Jul  5 16:41 igpImportLevelling.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   513846 Jul  5 14:03 lts2_allgps_v7.0_20230116.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     4250 Jul  5 14:03 lts2_allgps_v7.0_20230116_20240705T140310.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   389540 Jul  5 16:40 lts2_levelling_ameland.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     5662 Jul  5 16:40 lts2_levelling_ameland_20240705T164043.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   570393 Jul  5 16:40 lts2_levelling_ameland_v7_full_period.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     6454 Jul  5 16:40 lts2_levelling_ameland_v7_full_period_20240705T164033.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   180780 Jul  5 16:41 lts2_levelling_schier.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     5315 Jul  5 16:41 lts2_levelling_schier_20240705T164156.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   180860 Jul  5 16:41 lts2_levelling_schier_v7_full_period.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     5300 Jul  5 16:41 lts2_levelling_schier_v7_full_period_20240705T164152.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 14841473 Jul  5 16:40 lts2_levelling_v7_all.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     8336 Jul  5 16:40 lts2_levelling_v7_all_20240705T164016.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  5450420 Jul  5 16:40 lts2_levelling_vasteland.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     5553 Jul  5 16:40 lts2_levelling_vasteland_20240705T164028.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 11983499 Jul  5 16:40 lts2_levelling_vasteland_v7_full_period.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     5978 Jul  5 16:40 lts2_levelling_vasteland_v7_full_period_20240705T164022.log
+
+waddenzee_v7/0_import_insar:
+total 1515178
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)        125 Jul  4 10:05 STMFilesInsar.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1092632597 Mar  7 10:31 U05_NAM_GTZH_U05_deformation.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       1579 Mar  7 10:31 U05_NAM_GTZH_U05_deformation_20240307T102853.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       5272 Jul  5 11:36 igpImportInsar.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)        257 Sep 26  2020 insarStochasticModelParameters.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  184510547 Mar  7 10:28 lauwersmeer_s1_asc_gaussian90_deformation.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       1551 Mar  7 10:28 lauwersmeer_s1_asc_gaussian90_deformation_20240307T102737.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  274368078 Mar  7 10:28 lauwersmeer_s1_dsc_gaussian90_deformation.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       1551 Mar  7 10:28 lauwersmeer_s1_dsc_gaussian90_deformation_20240307T102807.log
+
+waddenzee_v7/1_decompose_06gps:
+total 41028
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  9060016 Jul  5 13:58 06gps_nam_202312_decomposed.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   274096 Jul  5 13:58 06gps_nam_202312_decomposed_20240705T135835.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     4437 Jul  5 13:43 igpDecompose06gps.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  5663904 Jul  5 13:58 rstack06gps_nam_202312_it1.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 27003720 Jul  5 13:58 tsfit06gps_nam_202312_it1.mat
+
+waddenzee_v7/2_reduce:
+total 12669
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  697931 Jul  7 16:06 06gps_nam_202312_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    1003 Jul  7 16:06 06gps_nam_202312_reduced_20240707T160610.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1462416 Jul  7 16:38 U05_NAM_GTZH_U05_deformation_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    1568 Jul  7 16:38 U05_NAM_GTZH_U05_deformation_reduced_20240707T163725.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    2311 Jul  5 12:16 igpReduceCampaign.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    2530 Jul  5 12:17 igpReduceGnss.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    4341 Jul  7 16:37 igpReduceInsar.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    4489 Jul  5 12:13 igpSelect_waddenzee.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1702242 Jul  7 16:38 lauwersmeer_s1_asc_gaussian90_deformation_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    1620 Jul  7 16:38 lauwersmeer_s1_asc_gaussian90_deformation_reduced_20240707T163837.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1745047 Jul  7 16:39 lauwersmeer_s1_dsc_gaussian90_deformation_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    1620 Jul  7 16:39 lauwersmeer_s1_dsc_gaussian90_deformation_reduced_20240707T163848.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  614846 Jul  7 16:04 lts2_allgps_v7.0_20230116_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     537 Jul  7 16:04 lts2_allgps_v7.0_20230116_reduced_20240707T160435.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  455236 Jul  7 16:04 lts2_levelling_ameland_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     528 Jul  7 16:04 lts2_levelling_ameland_reduced_20240707T160434.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  225972 Jul  7 16:04 lts2_levelling_schier_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     525 Jul  7 16:04 lts2_levelling_schier_reduced_20240707T160434.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 5766124 Jul  7 16:04 lts2_levelling_vasteland_reduced.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     532 Jul  7 16:04 lts2_levelling_vasteland_reduced_20240707T160434.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     407 Aug 11  2022 roi_waddenzee.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)     625 Jul  7 15:58 unreducedfiles.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  204785 Jul  7 16:04 waddenzee.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    9876 Jul  7 16:04 waddenzee_20240707T160342.log
+
+waddenzee_v7/3_integrate:
+total 7811941
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       3015 Jul  5 18:05 igpIntegrateWaddenzee2006.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       3017 Jul  5 18:05 igpIntegrateWaddenzee2009.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)       3228 Jul  5 15:00 igpIntegrateWaddenzee2015.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)        420 Jul  7 19:49 reducedfiles.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2956099857 Jul  7 19:58 waddenzee_2006.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      29983 Jul  6 10:49 waddenzee_2006_20240706T104608.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      25228 Jul  7 19:49 waddenzee_2006_20240707T194713.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      30554 Jul  7 19:58 waddenzee_2006_20240707T195350.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    2686400 Jul  7 19:55 waddenzee_2006_res.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2810115949 Jul  7 20:03 waddenzee_2009.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      29709 Jul  7 20:03 waddenzee_2009_20240707T195836.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    2672227 Jul  7 20:00 waddenzee_2009_res.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2224978160 Jul  7 19:53 waddenzee_2015.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      27679 Jul  6 10:53 waddenzee_2015_20240706T105013.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      23629 Jul  7 19:46 waddenzee_2015_20240707T194442.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)      28365 Jul  7 19:53 waddenzee_2015_20240707T194942.log
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)    2639457 Jul  7 19:51 waddenzee_2015_res.mat
+
+waddenzee_v7/4_predict:
+total 9
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   95 Jul  5 10:11 00README.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 6088 May  6 14:56 igpPredictWaddenzee.m
+
+waddenzee_v7/9_output:
+total 80
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  1310 Jul  4 23:32 00_README_INTERACTIVE_OUTPUT_AND_PLOTTING.txt
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 22317 Oct  5  2023 igp-background.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  3169 Oct 23  2023 igp-unstablearea.mat
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  2328 Mar 15 11:39 igp_background.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  1617 Mar 15 11:35 igp_unstablearea.m
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)     0 Jul  5 17:27 plt_imports
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)     0 Jul  7 21:02 plt_integrate
+drwxr-xr-x 1 hvandermarel DASTUD+Group(513)     0 Jul  7 21:08 plt_reduced
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  8772 Jul  7 21:07 stmplot_examples.m
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  4595 Sep 26  2023 unstablearea.coo
+
+waddenzee_v7/9_output/plt_imports:
+total 6020
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  382179 Jul  5 17:22 06gps_nam_202312_decomposed_auxData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  431273 Jul  5 17:22 06gps_nam_202312_decomposed_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   30573 Jul  5 17:22 06gps_nam_202312_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  444424 Jul  5 17:22 06gps_nam_202312_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  257731 Jul  5 17:24 lts2_allgps_v7.0_20230116_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   62246 Jul  5 17:24 lts2_allgps_v7.0_20230116_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  598392 Jul  5 17:24 lts2_allgps_v7.0_20230116_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  138791 Jul  5 17:26 lts2_levelling_ameland_v7_full_period_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   74262 Jul  5 17:27 lts2_levelling_ameland_v7_full_period_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  749503 Jul  5 17:27 lts2_levelling_ameland_v7_full_period_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   41648 Jul  5 17:26 lts2_levelling_schier_v7_full_period_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   23673 Jul  5 17:27 lts2_levelling_schier_v7_full_period_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  396181 Jul  5 17:27 lts2_levelling_schier_v7_full_period_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  620471 Jul  5 17:26 lts2_levelling_v7_all_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  336074 Jul  5 17:27 lts2_levelling_vasteland_v7_full_period_network.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  362060 Jul  5 17:27 lts2_levelling_vasteland_v7_full_period_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1175705 Jul  5 17:27 lts2_levelling_vasteland_v7_full_period_velocity.pdf
+
+waddenzee_v7/9_output/plt_integrate:
+total 11904
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1137036 Jul  7 20:57 waddenzee_2006_residuals.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2060525 Jul  7 20:48 waddenzee_2006_series.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1097036 Jul  7 20:59 waddenzee_2009_residuals.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2019957 Jul  7 21:02 waddenzee_2009_series.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  528313 Jul  7 20:59 waddenzee_2015_residuals.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1938169 Jul  7 21:01 waddenzee_2015_series.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 3394922 Jul  7 20:55 waddenzee_2015_velocity.pdf
+
+waddenzee_v7/9_output/plt_reduced:
+total 20368
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   36439 Jul  7 19:17 06gps_nam_202312_decomposed_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1351299 Jul  7 19:01 06gps_nam_202312_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1080367 Jul  7 19:17 U05_NAM_GTZH_U05_deformation_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1005079 Jul  7 19:05 U05_NAM_GTZH_U05_deformation_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   26154 Jul  7 20:42 evaluation_points_2006.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   26154 Jul  7 20:42 evaluations_point_2009.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   26154 Jul  7 20:42 evaluations_point_2015.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  976055 Jul  7 19:18 lauwersmeer_s1_asc_gaussian90_deformation_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1291185 Jul  7 19:08 lauwersmeer_s1_asc_gaussian90_deformation_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1018600 Jul  7 19:18 lauwersmeer_s1_dsc_gaussian90_deformation_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1300478 Jul  7 19:10 lauwersmeer_s1_dsc_gaussian90_deformation_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   62351 Jul  7 19:17 lts2_allgps_v7.0_20230116_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  634738 Jul  7 19:01 lts2_allgps_v7.0_20230116_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   43926 Jul  7 19:17 lts2_levelling_ameland_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  551989 Jul  7 19:00 lts2_levelling_ameland_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)   23698 Jul  7 19:17 lts2_levelling_schier_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  396258 Jul  7 19:01 lts2_levelling_schier_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  213349 Jul  7 19:17 lts2_levelling_vasteland_reduced_obsData.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 2110322 Jul  7 19:01 lts2_levelling_vasteland_reduced_velocity.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 6491400 Jul  7 19:10 velcov.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513)  225846 Jul  7 19:10 velmap.pdf
+-rw-r--r-- 1 hvandermarel DASTUD+Group(513) 1924090 Jul  7 19:10 velpar.pdf

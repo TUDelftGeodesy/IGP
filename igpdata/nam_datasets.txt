@@ -1,0 +1,61 @@
+NAM Datasets
+--------------------------------------------------------------------------
+
+The NAM datasets, as provided by NAM, and the 06-GPS CORS data, are provided
+as seperate downloads (not on github) and are available only on special 
+request.
+
+Overview of NAM datasets:
+
+	nam_gnss:
+
+		[06gps_nam_202008]
+		[06gps_nam_202107]
+		allEventsEdited.txt
+		
+	nam_levelling:
+	
+	+ waterpassing_groningen.tar.gz
+		[gron_move3_runs_updated]
+		gron_levelling_flaggedOutliers_v2.3.02_20191030.nc
+		gron_lvl_prj_overview.csv
+
+	nam_insar:
+
+	+ radarsat2_desc_groningen_full_201812.tar.gz 
+		U05_NAM_GTZH_U05_report.pdf
+		U05_NAM_GTZH_U05_deformation.csv
+		U05_NAM_GTZH_U05_ahn2.csv
+	+ sentinel1_asc_nleast_northnl_202001.tar.gz
+		noord_nl_s1_asc_gaussian90_ahn2.csv
+		noord_nl_s1_asc_gaussian90_deformation.csv
+		noord_nl_s1_asc_gaussian90_report.pdf
+	+ sentinel1_desc_nlfull_northnl_202001.tar.gz
+		noord_nl_s1_dsc_gaussian90_report.pdf
+		noord_nl_s1_dsc_gaussian90_deformation.csv
+		noord_nl_s1_dsc_gaussian90_ahn2.csv
+	+ ON-TS-105 InSAR Def Monitoring.docx
+		[TS015]
+		[TS015_IGRS]
+
+	nam_waddenzee:
+
+	+ sentinel1_lauwersmeer.tar.gz
+	    lauwersmeer_s1_asc_gaussian90_lauwersmeer_s1_asc_gaussian90_ahn2.csv
+		lauwersmeer_s1_asc_gaussian90_lauwersmeer_s1_asc_gaussian90_deformation.csv
+		lauwersmeer_s1_dsc_gaussian90_lauwersmeer_s1_dsc_gaussian90_ahn2.csv
+		lauwersmeer_s1_dsc_gaussian90_lauwersmeer_s1_dsc_gaussian90_deformation.csv
+	+ levelling_waddenzee.tar.gz ->
+		lts2_allgps_v6.0_20220111.nc
+		lts2_alllevelling_gpsbaseline_v5.2_20210323.nc
+	+ levelling_waddenzee_v7.tar.gz  ->
+		lts2_alllevelling_gpsbaseline_v7.1_20230222.nc
+		lts2_allgps_v7.0_20230116.nc
+
+	Others:
+	
+		igp.samplehdf.txt
+		igp.samplehdf.readme
+		2019-10-11_Diffstaat_GPS_SCHIER_2006_2019.csv
+	
+		unstablearea.coo

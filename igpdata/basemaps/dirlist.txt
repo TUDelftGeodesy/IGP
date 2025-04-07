@@ -1,0 +1,35 @@
+.:
+total 23558
+-rw-r--r-- 1 hvandermarel Domain Users      154 Mar 20  2014 borders_nweurope_f.dbf
+-rw-r--r-- 1 hvandermarel Domain Users   196772 Mar 20  2014 borders_nweurope_f.shp
+-rw-r--r-- 1 hvandermarel Domain Users      164 Mar 20  2014 borders_nweurope_f.shx
+-rw-r--r-- 1 hvandermarel Domain Users      154 Mar 20  2014 borders_nweurope_i.dbf
+-rw-r--r-- 1 hvandermarel Domain Users    12612 Mar 20  2014 borders_nweurope_i.shp
+-rw-r--r-- 1 hvandermarel Domain Users      164 Mar 20  2014 borders_nweurope_i.shx
+-rw-r--r-- 1 hvandermarel Domain Users        0 Apr  7 11:11 dirlist.txt
+-rw-r--r-- 1 hvandermarel Domain Users      658 Mar 20  2014 islands_nweurope_f.dbf
+-rw-r--r-- 1 hvandermarel Domain Users     7092 Mar 20  2014 islands_nweurope_f.shp
+-rw-r--r-- 1 hvandermarel Domain Users      196 Mar 20  2014 islands_nweurope_f.shx
+-rw-r--r-- 1 hvandermarel Domain Users      644 Mar 20  2014 islands_nweurope_i.dbf
+-rw-r--r-- 1 hvandermarel Domain Users     1836 Mar 20  2014 islands_nweurope_i.shp
+-rw-r--r-- 1 hvandermarel Domain Users      188 Mar 20  2014 islands_nweurope_i.shx
+-rw-r--r-- 1 hvandermarel Domain Users     5156 Mar 20  2014 lakes_nweurope_f.dbf
+-rw-r--r-- 1 hvandermarel Domain Users   183260 Mar 20  2014 lakes_nweurope_f.shp
+-rw-r--r-- 1 hvandermarel Domain Users     1260 Mar 20  2014 lakes_nweurope_f.shx
+-rw-r--r-- 1 hvandermarel Domain Users     5480 Mar 20  2014 lakes_nweurope_i.dbf
+-rw-r--r-- 1 hvandermarel Domain Users    26948 Mar 20  2014 lakes_nweurope_i.shp
+-rw-r--r-- 1 hvandermarel Domain Users     1236 Mar 20  2014 lakes_nweurope_i.shx
+-rw-r--r-- 1 hvandermarel Domain Users   204762 Mar 20  2014 landareas_nweurope_f.dbf
+-rw-r--r-- 1 hvandermarel Domain Users 22381508 Mar 20  2014 landareas_nweurope_f.shp
+-rw-r--r-- 1 hvandermarel Domain Users    44324 Mar 20  2014 landareas_nweurope_f.shx
+-rw-r--r-- 1 hvandermarel Domain Users    31465 Mar 20  2014 landareas_nweurope_i.dbf
+-rw-r--r-- 1 hvandermarel Domain Users   726908 Mar 20  2014 landareas_nweurope_i.shp
+-rw-r--r-- 1 hvandermarel Domain Users     6508 Mar 20  2014 landareas_nweurope_i.shx
+-rw-r--r-- 1 hvandermarel Domain Users     2528 Mar 20  2014 nweuropecrop.m
+-rw-r--r-- 1 hvandermarel Domain Users     3480 Mar 21  2014 nweuropemap.m
+-rw-r--r-- 1 hvandermarel Domain Users      906 Mar 20  2014 rivers_nweurope_f.dbf
+-rw-r--r-- 1 hvandermarel Domain Users   189532 Mar 20  2014 rivers_nweurope_f.shp
+-rw-r--r-- 1 hvandermarel Domain Users      908 Mar 20  2014 rivers_nweurope_f.shx
+-rw-r--r-- 1 hvandermarel Domain Users      906 Mar 20  2014 rivers_nweurope_i.dbf
+-rw-r--r-- 1 hvandermarel Domain Users    18412 Mar 20  2014 rivers_nweurope_i.shp
+-rw-r--r-- 1 hvandermarel Domain Users      908 Mar 20  2014 rivers_nweurope_i.shx

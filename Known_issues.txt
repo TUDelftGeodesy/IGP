@@ -1,0 +1,78 @@
+---------------------------------------------------------------------------------------------
+** Release 1.0b1, 2 December 2024 ** 
+---------------------------------------------------------------------------------------------
+Second Beta release to NAM
+
+Open issues
+-----------
+
+Known software issues:
+
+[2 Dec 2024 by FvL, Open, Minor, Prio Low, Assigned to none] 
+    Addition of export to geotiff and shapefile/geopackage in stmexport.m
+[8 Aug 2024 by HB, Open, Minor, Prio Low, Assigned to none] 
+    Tooltip is sometimes not accessible in stmplotmap because it is hidden behind another layer with markers.
+[25 Jul 2024 by HM, Open, Minor, Prio Medium , Assigned to HM] 
+    Make it possible to use output space time matrix from an integration run as input for a next integration run
+    to enable two step approaches.
+[25 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    The computation of test statistics does not use the full co-variance matrix of the residuals. This 
+    seems to have little impact on the results, but was never investigated in depth and subsequently
+    forgotten.
+[11 Jul 2024 by HB, Open, Minor, Prio Low, Assigned to none] 
+    Plots in RD as option 
+[7 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    Stmvelocity sometimes gives warnings about badly conditioned normal equations. Most of the time this
+    is only a warning, but somtimes action is taken to make the normal equations regular. This doesn't seem
+    to affect the results. The underlying cause is not very clear, it could be covariances matrices stored
+    as single precision, or data with large standard deviations.
+[7 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    Not all plot functions have a saveplt option
+[7 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    Insar reduction may output "empty" shallowLos component (easy work around via settings, but
+    needs further investigation)
+
+Known data issues:
+
+[8 Aug 2024 by HB, Open, Minor, Prio Low, Assigned to none] 
+    The last station in the GNSS eventTable was added in 2018. All stations added after this date use the
+    default receiver and antenna. It would be nice to add these new stations explicitly. There are also
+    a few minor differences with the NAM tables.
+[25 Jul 2024 by HB/HM, Open, Minor, Prio Low, Assigned to none] 
+    The output from the integration module has sometimes spikes, probably caused by East/Up decomposition
+    for points with only levelling data. Possible solutions: estimate only height, limit runs to shorter periods
+    and then integrate up component only over longer time span. Two options: 1) do this at the level of integration
+    runs, op 2) also do the reduction and selection in two steps. Depends on known software issue [25 Jul 2024 by HM]
+    to be solved.
+[7 Jul 2024 by HM, Open, Major, Prio Low, Assigned to none] 
+    Only tested with waddenzee data (v6 and v7), not (yet) tested with Groningen data (only 
+    with older software versions)
+[7 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    In v7, the newly added Shiermonnikoog levelling dataset causes a singularity during integration,
+    has been excluded (temporarily) from the integration
+[7 Jul 2024 by HM, Open, Minor, Prio Low, Assigned to none] 
+    Tests on simulated data not yet ported to version 1.0 
+
+Resolved in Release 1.0b1, 2 December 2024
+------------------------------------------
+
+[11 Jul 2024 by HB, Resolved ( 2 Dec 2024), Minor, Prio Low, Assigned to HM] 
+    Contrary to what was reported in 00README_METEO.txt, the automatic download of 
+    meteo data in the gnss2stm script seems to work again if https is used.
+[11 Jul 2024 by HB, Resolved (2 Dec 2024), Minor, Prio Low, Assigned to HM] 
+    Move shapefiles with basemaps from igpsoftware to a data directory 
+[7 Jul 2024 by FvL, Resolved (27 Nov 2024), Major, Prio High, Assigned to FvL] 
+    The prediction module has some known issues with co-located points (major, 
+    under investigation, now resolved)
+
+
+
+Ideas for new functionality and other major changes
+---------------------------------------------------
+
+- estimation of a 3D (space-time) model (e.g. spline-based) for the prediction step, instead of the current velocity and interpolation based approach
+- add piece-wise linear of time based splines to stmvelocity (i.e. as the time dimension of the 3D space-time model)
+- harmonizize stmvelocity, stmintegrate and stmpredict functionality (i.e. stmvelocity and stmpredict accept multiple 
+input space time matrices)
+- refactor stmintegrate
+- possibly merge stmselect, stmreduce and stmintegrate to a single script/folder

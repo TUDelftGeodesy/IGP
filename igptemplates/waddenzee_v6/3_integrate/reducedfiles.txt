@@ -1,0 +1,8 @@
+../2_reduce/lts2_levelling_ameland_reduced.mat
+../2_reduce/lts2_levelling_vasteland_reduced.mat
+../2_reduce/lts2_allgps_v6.0_20220111_reduced.mat
+../2_reduce/06gps_nam_202107_reduced.mat
+../2_reduce/U05_NAM_GTZH_U05_deformation_reduced.mat
+../2_reduce/lauwersmeer_s1_asc_gaussian90_deformation_reduced.mat
+../2_reduce/lauwersmeer_s1_dsc_gaussian90_deformation_reduced.mat
+

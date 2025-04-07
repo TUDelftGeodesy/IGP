@@ -1,0 +1,138 @@
+.:
+total 2374545
+-rw-r--r-- 1 hvandermarel Domain Users     192254 May 19  2020 ON-TS-105 InSAR Def Monitoring.docx
+drwxr-xr-x 1 hvandermarel Domain Users          0 Jun  2  2020 TS015
+drwxr-xr-x 1 hvandermarel Domain Users          0 Jun  2  2020 TS015_igrs
+-rw-r--r-- 1 hvandermarel Domain Users          0 Dec 27 20:05 dirlist.txt
+drwxr-xr-x 1 hvandermarel Domain Users          0 May 18  2020 radarsat2_desc_groningen_full_201812
+-rw-r--r-- 1 hvandermarel Domain Users  356390131 May 19  2020 radarsat2_desc_groningen_full_201812.tar.gz
+drwxr-xr-x 1 hvandermarel Domain Users          0 May 18  2020 sentinel1_asc_nleast_northnl_202001
+-rw-r--r-- 1 hvandermarel Domain Users 1202902650 May 18  2020 sentinel1_asc_nleast_northnl_202001.tar.gz
+drwxr-xr-x 1 hvandermarel Domain Users          0 May 18  2020 sentinel1_desc_nlfull_northnl_202001
+-rw-r--r-- 1 hvandermarel Domain Users  872041555 Jun 18  2020 sentinel1_desc_nlfull_northnl_202001.tar.gz
+
+./TS015:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 asc
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 dsc01
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 dsc02
+
+./TS015/asc:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 csv
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 geotiff
+
+./TS015/asc/csv:
+total 36472964
+-rw-r--r-- 1 hvandermarel Domain Users   119625631 Jun  2  2020 U22_asc_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 12809463130 Jun  2  2020 U22_asc_atmosphere.csv
+-rw-r--r-- 1 hvandermarel Domain Users  9503304921 Jun  2  2020 U22_asc_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users 14915834249 Jun  2  2020 U22_asc_phase.csv
+-rw-r--r-- 1 hvandermarel Domain Users         230 Jun  2  2020 igrs_ahn2_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users       21318 Jun  2  2020 igrs_atmosphere_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users       19655 Jun  2  2020 igrs_deformation_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users       25303 Jun  2  2020 igrs_phase_asc.csv
+
+./TS015/asc/geotiff:
+total 60380
+-rw-r--r-- 1 hvandermarel Domain Users 29312903 Jun  2  2020 U22_asc_dem_m_5m.tif
+-rw-r--r-- 1 hvandermarel Domain Users 32512095 Jun  2  2020 U22_asc_linear_mmy_5m.tif
+
+./TS015/dsc01:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 csv
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 geotiff
+
+./TS015/dsc01/csv:
+total 28629584
+-rw-r--r-- 1 hvandermarel Domain Users   144080846 Jun  2  2020 U22_dsc01_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users   820794069 Jun  2  2020 U22_dsc01_atmosphere.csv
+-rw-r--r-- 1 hvandermarel Domain Users 10557956284 Jun  2  2020 U22_dsc01_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users 17793776029 Jun  2  2020 U22_dsc01_phase.csv
+-rw-r--r-- 1 hvandermarel Domain Users         219 Jun  2  2020 igrs_ahn2_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users       22108 Jun  2  2020 igrs_atmosphere_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users       20351 Jun  2  2020 igrs_deformation_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users       25837 Jun  2  2020 igrs_phase_dsc01.csv
+
+./TS015/dsc01/geotiff:
+total 69152
+-rw-r--r-- 1 hvandermarel Domain Users 33442962 Jun  2  2020 U22_dsc01_dem_m_5m.tif
+-rw-r--r-- 1 hvandermarel Domain Users 37365167 Jun  2  2020 U22_dsc01_linear_mmy_5m.tif
+
+./TS015/dsc02:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 csv
+drwxr-xr-x 1 hvandermarel Domain Users 0 Jun  2  2020 geotiff
+
+./TS015/dsc02/csv:
+total 38038796
+-rw-r--r-- 1 hvandermarel Domain Users   140892353 Jun  2  2020 U22_dsc02_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 12948784725 Jun  2  2020 U22_dsc02_atmosphere.csv
+-rw-r--r-- 1 hvandermarel Domain Users  9999439187 Jun  2  2020 U22_dsc02_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users 15862527827 Jun  2  2020 U22_dsc02_phase.csv
+-rw-r--r-- 1 hvandermarel Domain Users         197 Jun  2  2020 igrs_ahn2_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users       21162 Jun  2  2020 igrs_atmosphere_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users       19858 Jun  2  2020 igrs_deformation_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users       24050 Jun  2  2020 igrs_phase_dsc02.csv
+
+./TS015/dsc02/geotiff:
+total 59444
+-rw-r--r-- 1 hvandermarel Domain Users 28671087 Jun  2  2020 U22_dsc02_dem_m_5m.tif
+-rw-r--r-- 1 hvandermarel Domain Users 32197574 Jun  2  2020 U22_dsc02_linear_mmy_5m.tif
+
+./TS015_igrs:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 asc
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 dsc01
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 dsc02
+
+./TS015_igrs/asc:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 csv
+
+./TS015_igrs/asc/csv:
+total 76
+-rw-r--r-- 1 hvandermarel Domain Users   230 Jun  2  2020 igrs_ahn2_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users 21318 Jun  2  2020 igrs_atmosphere_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users 19655 Jun  2  2020 igrs_deformation_asc.csv
+-rw-r--r-- 1 hvandermarel Domain Users 25303 Jun  2  2020 igrs_phase_asc.csv
+
+./TS015_igrs/dsc01:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 csv
+
+./TS015_igrs/dsc01/csv:
+total 76
+-rw-r--r-- 1 hvandermarel Domain Users   219 Jun  2  2020 igrs_ahn2_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users 22108 Jun  2  2020 igrs_atmosphere_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users 20351 Jun  2  2020 igrs_deformation_dsc01.csv
+-rw-r--r-- 1 hvandermarel Domain Users 25837 Jun  2  2020 igrs_phase_dsc01.csv
+
+./TS015_igrs/dsc02:
+total 0
+drwxr-xr-x 1 hvandermarel Domain Users 0 Aug 28  2020 csv
+
+./TS015_igrs/dsc02/csv:
+total 72
+-rw-r--r-- 1 hvandermarel Domain Users   197 Jun  2  2020 igrs_ahn2_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users 21162 Jun  2  2020 igrs_atmosphere_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users 19858 Jun  2  2020 igrs_deformation_dsc02.csv
+-rw-r--r-- 1 hvandermarel Domain Users 24050 Jun  2  2020 igrs_phase_dsc02.csv
+
+./radarsat2_desc_groningen_full_201812:
+total 1110524
+-rw-r--r-- 1 hvandermarel Domain Users   26736012 May 18  2020 U05_NAM_GTZH_U05_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1110035196 May 18  2020 U05_NAM_GTZH_U05_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users     398955 May 18  2020 U05_NAM_GTZH_U05_report.pdf
+
+./sentinel1_asc_nleast_northnl_202001:
+total 3962652
+-rw-r--r-- 1 hvandermarel Domain Users   67865485 May 18  2020 noord_nl_s1_asc_gaussian90_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3989490843 May 18  2020 noord_nl_s1_asc_gaussian90_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users     396833 Jan 28  2020 noord_nl_s1_asc_gaussian90_report.pdf
+
+./sentinel1_desc_nlfull_northnl_202001:
+total 2893120
+-rw-r--r-- 1 hvandermarel Domain Users   50172003 May 18  2020 noord_nl_s1_dsc_gaussian90_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2911991656 Jun 18  2020 noord_nl_s1_dsc_gaussian90_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users     384768 Jan 28  2020 noord_nl_s1_dsc_gaussian90_report.pdf

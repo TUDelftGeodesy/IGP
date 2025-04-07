@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" product="signal" version="1.0">
+   <message>
+     
+      <!-- Main Function -->
+      <entry key="IgnoreNegativeFrequencies">Negative frequencies are ignored in this function.</entry>
+      <entry key="SignalZeroVariance">The signal has zero variance.</entry>
+      <entry key="CannotSpecifyOfac">You cannot specify OFAC when frequency vector is specified.</entry>
+      <entry key="OnlyNegativeFrequencies">The function operates only on positive frequencies.</entry>
+      <entry key="PdFreqSpecErr">Probability of Detection is not available when frequency vector is specified.</entry>    
+      <entry key="PdForOneChannel">Probability of Detection is only available for single channel input.</entry>          
+      
+      <!-- PSD Plot -->
+      <entry key="PsdTitle">Lomb-Scargle Power Spectral Density Estimate</entry>
+      <entry key="PsdRadYlabel">Power/frequency (dBW/rad/sample)</entry>
+      <entry key="PsdHzYlabel">Power/frequency (dBW/Hz)</entry>
+            
+      <!-- Power Plot -->
+      <entry key="PowerTitle">Lomb-Scargle Power Spectrum Estimate</entry>
+      <entry key="PowerYlabel">Power (dBW)</entry>
+      <entry key="PowerLabel">Power</entry>
+            
+      <!-- Normalized Power Plot -->
+      <entry key="NormTitle">Lomb-Scargle Normalized Periodogram</entry>
+      <entry key="NormRadXlabel">rad/sample</entry>
+      <entry key="NormRadYlabel">Hz</entry>
+      <entry key="NormYlabel">Normalized Power(dB)</entry>
+
+      <!-- NaNChannelCheck Function -->
+      <entry key="TimeVectorIncreasingOrder">The time vector (T) should be in increasing order.</entry>
+      <entry key="NotEnoughPoints">Not enough signal points in signal (X) to estimate the spectrum.</entry>
+      
+      <!-- parseAndValidateInputs Function -->
+      <entry key="OnlyMatrixForm">The function only supports multidimensional arrays in 2D format.</entry>
+      <entry key="SignalTimeSameSize">The signal (X) and time vector (T) should have same lengths.</entry>
+      <entry key="TimeVectorNumeric">Time vector (T) provided must be numeric.</entry>
+      <entry key="OfacNumeric">Oversampling-Factor (OFAC) should be numeric.</entry>
+      <entry key="AmbiguousInputs">{0} are ambiguous inputs.</entry>
+      <entry key="AmbiguousSingleInput">{0} is an ambiguous inputs.</entry>
+      <entry key="InvalidInput">{0} is an invalid input.</entry>
+      <entry key="TimeVectorNeeded">Time vector (T) must be specified when FREQUNIT is set to Hz.</entry>
+      <entry key="InputMustBeCellString">Input must be a cell array with char entries.</entry>    
+      <entry key="MultichannelTimeInvalid">Multichannel time vector is not supported.</entry>
+      <entry key="FmaxTooLow">FMAX specified is too small for computation.</entry>
+      <entry key="PdValuesMissing">Pd values are missing.</entry>
+      <entry key="TooManyOuputArgs">Too many output arguments.</entry>     
+      <entry key="NotEnoughDataPoints">Not enough data points to estimate the spectrum.</entry> 
+      <entry key="MultiplePdMultipleCh">Multiple Detection Probabilities for Multi-Channel signal will not be displayed.</entry>     
+      <entry key="OfacTooSmall">Oversampling factor is too small for computation</entry>
+            
+   </message>
+</rsccat>

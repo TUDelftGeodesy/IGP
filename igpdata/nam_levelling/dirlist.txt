@@ -1,0 +1,10 @@
+.:
+total 468673
+-rw-r--r-- 1 hvandermarel Domain Users         0 Dec 27 20:05 dirlist.txt
+drwxr-xr-x 1 hvandermarel Domain Users         0 Dec 24 14:14 waterpassing_groningen
+-rw-r--r-- 1 hvandermarel Domain Users 479918786 May 18  2020 waterpassing_groningen.tar.gz
+
+./waterpassing_groningen:
+total 2333088
+-rw-r--r-- 1 hvandermarel Domain Users 2389075188 May 18  2020 gron_levelling_flaggedOutliers_v2.3.02_20191030.nc
+-rw-r--r-- 1 hvandermarel Domain Users       1008 May 18  2020 gron_lvl_prj_overview.csv

@@ -1,0 +1,10 @@
+total 1963032
+-rw-r--r-- 1 hvandermarel Domain Users         0 Jul  4 09:10 dirlist.txt
+-rw-r--r-- 1 hvandermarel Domain Users   3365365 Mar 10  2022 lauwersmeer_s1_asc_gaussian90_lauwersmeer_s1_asc_gaussian90_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 282486903 Mar 10  2022 lauwersmeer_s1_asc_gaussian90_lauwersmeer_s1_asc_gaussian90_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users   4859932 Mar 10  2022 lauwersmeer_s1_dsc_gaussian90_lauwersmeer_s1_dsc_gaussian90_ahn2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 412803796 Mar 10  2022 lauwersmeer_s1_dsc_gaussian90_lauwersmeer_s1_dsc_gaussian90_deformation.csv
+-rw-r--r-- 1 hvandermarel Domain Users  12747764 Jan 11  2022 lts2_allgps_v6.0_20220111.nc
+-rw-r--r-- 1 hvandermarel Domain Users  14435668 Jan 16  2023 lts2_allgps_v7.0_20230116.nc
+-rw-r--r-- 1 hvandermarel Domain Users 615322992 Mar 23  2021 lts2_alllevelling_gpsbaseline_v5.2_20210323.nc
+-rw-r--r-- 1 hvandermarel Domain Users 664103628 Feb 22  2023 lts2_alllevelling_gpsbaseline_v7.1_20230222.nc

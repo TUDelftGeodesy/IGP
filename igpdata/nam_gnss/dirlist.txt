@@ -1,0 +1,155 @@
+.:
+total 52
+drwxr-xr-x 1 hvandermarel Domain Users     0 Sep 22  2021 06gps_nam_202107
+drwxr-xr-x 1 hvandermarel Domain Users     0 May 21  2024 06gps_nam_202312
+-rw-r--r-- 1 hvandermarel Domain Users 22377 Sep 28  2019 allEventsEdited.txt
+-rw-r--r-- 1 hvandermarel Domain Users     0 Apr  7 11:11 dirlist.txt
+drwxr-xr-x 1 hvandermarel Domain Users     0 Jul  4  2024 meteo_202107
+drwxr-xr-x 1 hvandermarel Domain Users     0 Mar  7  2024 meteo_202312
+
+./06gps_nam_202107:
+total 130276
+-rw-r--r-- 1 hvandermarel Domain Users 3877740 Jul 19  2021 0647.csv
+-rw-r--r-- 1 hvandermarel Domain Users 7243665 Jul 19  2021 ame1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3014280 Jul 19  2021 ame2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3370950 Jul 19  2021 amel.csv
+-rw-r--r-- 1 hvandermarel Domain Users 6999392 Jul 19  2021 anjm.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3268980 Jul 19  2021 awg1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1489840 Jul 19  2021 barn.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1322640 Jul 19  2021 bedu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1097736 Jul 19  2021 beer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1487640 Jul 19  2021 bier.csv
+-rw-r--r-- 1 hvandermarel Domain Users  368880 Jul 19  2021 blij.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1504818 Jul 19  2021 borg.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1924560 Jul 19  2021 d200.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3683515 Jul 19  2021 dw16.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3582738 Jul 19  2021 dw26.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3442176 Jul 19  2021 dzyl.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3544200 Jul 19  2021 eems.csv
+-rw-r--r-- 1 hvandermarel Domain Users  714096 Jul 19  2021 eext.csv
+-rw-r--r-- 1 hvandermarel Domain Users  389400 Jul 19  2021 emsh.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1188000 Jul 19  2021 enge.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3515930 Jul 19  2021 froo.csv
+-rw-r--r-- 1 hvandermarel Domain Users  740016 Jul 19  2021 ganz.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3561360 Jul 19  2021 grij.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1066608 Jul 19  2021 hare.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1439003 Jul 19  2021 heil.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1336176 Jul 19  2021 hoog.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1392930 Jul 19  2021 kolh.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1478276 Jul 19  2021 leer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1183490 Jul 19  2021 midl.csv
+-rw-r--r-- 1 hvandermarel Domain Users 6757023 Jul 19  2021 modd.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1373760 Jul 19  2021 nor3.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3488832 Jul 19  2021 norg.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1536205 Jul 19  2021 nsch.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1545720 Jul 19  2021 oldo.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1520208 Jul 19  2021 oosw.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3536280 Jul 19  2021 over.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1277856 Jul 19  2021 ranu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1398384 Jul 19  2021 rdn1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1499688 Jul 19  2021 sapp.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1467345 Jul 19  2021 schw.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3259606 Jul 19  2021 sted.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1352120 Jul 19  2021 stil.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1924560 Jul 19  2021 tena.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3002230 Jul 15  2019 tenp.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2225520 Jul 19  2021 tern.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3540240 Jul 19  2021 tjuc.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1517285 Jul 19  2021 uith.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3461150 Jul 19  2021 usqu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3917808 Jul 19  2021 veen.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1418560 Jul 19  2021 warf.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1234200 Jul 19  2021 wtnl.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3475872 Jul 19  2021 zand.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3534960 Jul 19  2021 zdvn.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3451030 Jul 19  2021 zeer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1334328 Jul 19  2021 zldv.csv
+
+./06gps_nam_202312:
+total 195396
+-rw-r--r-- 1 hvandermarel Domain Users 5042844 Jan 11  2024 0647.csv
+-rw-r--r-- 1 hvandermarel Domain Users 8450145 Jan 11  2024 ame1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4172904 Jan 11  2024 ame2.csv
+-rw-r--r-- 1 hvandermarel Domain Users  413600 Mar  9  2020 ame3.csv
+-rw-r--r-- 1 hvandermarel Domain Users  326040 Jan 11  2024 ame4.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4581390 Jan 11  2024 amel.csv
+-rw-r--r-- 1 hvandermarel Domain Users 8165816 Jan 11  2024 anjm.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4475460 Jan 11  2024 awg1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2700280 Jan 11  2024 barn.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2533080 Jan 11  2024 bedu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2264160 Jan 11  2024 beer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2698080 Jan 11  2024 bier.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1535304 Jan 11  2024 blij.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2690658 Jan 11  2024 borg.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3094080 Jan 11  2024 d200.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4893955 Jan 11  2024 dw16.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4771170 Jan 11  2024 dw26.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4624128 Jan 11  2024 dzyl.csv
+-rw-r--r-- 1 hvandermarel Domain Users  539880 Jan 11  2024 eem2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4368540 Apr 12  2023 eems.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1902528 Jan 11  2024 eext.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1593240 Jan 11  2024 emsh.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2398440 Jan 11  2024 enge.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4726370 Jan 11  2024 froo.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1928448 Jan 11  2024 ganz.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4771800 Jan 11  2024 grij.csv
+-rw-r--r-- 1 hvandermarel Domain Users  583200 Jan 11  2024 gron.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2255040 Jan 11  2024 hare.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2605427 Jan 11  2024 heil.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2498688 Jan 11  2024 hoog.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2603370 Jan 11  2024 kolh.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2623076 Jan 11  2024 leer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2349914 Jan 11  2024 midl.csv
+-rw-r--r-- 1 hvandermarel Domain Users 7923447 Jan 11  2024 modd.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2538912 Jan 11  2024 nor3.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4677264 Jan 11  2024 norg.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2712985 Jan 11  2024 nsch.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2716560 Jan 11  2024 oldo.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2684664 Jan 11  2024 oosw.csv
+-rw-r--r-- 1 hvandermarel Domain Users  456720 Jan 11  2024 ove2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4472600 Jul 10  2023 over.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1180656 Jan 11  2024 post.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2466288 Jan 11  2024 ranu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2582928 Jan 11  2024 rdn1.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2666112 Jan 11  2024 sapp.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2657985 Jan 11  2024 schw.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4376422 Jan 11  2024 sted.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2562560 Jan 11  2024 stil.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3112992 Jan 11  2024 tena.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3073895 Sep  5  2019 tenp.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3433320 Jan 11  2024 tern.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4750680 Jan 11  2024 tjuc.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2727725 Jan 11  2024 uith.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4671590 Jan 11  2024 usqu.csv
+-rw-r--r-- 1 hvandermarel Domain Users 5106240 Jan 11  2024 veen.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2629000 Jan 11  2024 warf.csv
+-rw-r--r-- 1 hvandermarel Domain Users 2444640 Jan 11  2024 wtnl.csv
+-rw-r--r-- 1 hvandermarel Domain Users  991320 Jan 11  2024 zan2.csv
+-rw-r--r-- 1 hvandermarel Domain Users 3841992 May  9  2022 zand.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4745400 Jan 11  2024 zdvn.csv
+-rw-r--r-- 1 hvandermarel Domain Users 4661470 Jan 11  2024 zeer.csv
+-rw-r--r-- 1 hvandermarel Domain Users 1930896 Dec 12  2022 zldv.csv
+
+./meteo_202107:
+total 81744
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_270_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_270_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users   886284 Aug 27  2021 uurgeg_270_2021-2030.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_280_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_280_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users   886284 Aug 27  2021 uurgeg_280_2021-2030.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_286_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_286_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users   886284 Aug 27  2021 uurgeg_286_2021-2030.txt
+
+./meteo_202312:
+total 92256
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_270_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_270_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users  4475407 May 21  2024 uurgeg_270_2021-2030.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_280_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_280_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users  4475407 May 21  2024 uurgeg_280_2021-2030.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13504428 Apr 25  2020 uurgeg_286_2001-2010.txt
+-rw-r--r-- 1 hvandermarel Domain Users 13508124 Jan 10  2021 uurgeg_286_2011-2020.txt
+-rw-r--r-- 1 hvandermarel Domain Users  4475407 May 21  2024 uurgeg_286_2021-2030.txt

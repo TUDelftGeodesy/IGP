@@ -1,0 +1,98 @@
+---------------------------------------------------------------------------------------------
+** Release 1.0b1, 2 December 2024 ** 
+---------------------------------------------------------------------------------------------
+Second Beta release to NAM
+
+Changes since previous release:
+
+2024-12-02 by HM:
+- Created new zip files for v1-0b1 (full distribution and patches)
+- Updated main 00README.txt and Releasenotes.txt for version 1.0b2
+- Created a new file known_issues.txt, with known issues and their status, using the 
+  issues reported under v1-0b0 as starting point
+- Moved release notes from igpsoftware to the main folder
+- IGPTEMPLATES/IGPDATA: moved folders with meteo data from igptemplates/../0_import_06gps  
+  to igpdata/nam_gnss, and modified the paths in the matlab templates 
+- IGPTEMPLATES: Changed URL for KNMI meteo download 
+- IGPSOFTWARE/IGPDATA: Moved basemap folder with shapefiles from igpsoftware to igpdata directory 
+  and adjusted the path in igptoolbox.cfg
+2024-12-02 by FvL and HM:
+- Updated IGP_User_Manual_V1-0.[docx|pdf] including updated figures.
+2024-12-02 by FvL:
+- IGPTEMPLATES: added templates to all 4_predict folders and updated all doigp.m scripts
+- IGPPROJECTS: added output and log files to 4_predict folders 
+2024-11-27 by FvL
+- Resolves known issue in the prediction module with co-located points 
+- MHT: Minor update to mht_setup_models.m
+- STMMAIN: Major updates to stmexport.m and stmpredict.m, added clustering of points, added a 
+  check on the spatial overlap between the input and output point locations, and converted 
+  all crs descriptions to EPSG codes for consistency.
+- STMUTIL: New function stmclustering, minor changes to stmplotvel.m and stmprediction.m,
+  updated contents.m
+- IGPTEMPLATES: updated igpPredictWaddenzee.m, added igpExportWaddenzee.m, igp_background_incl_rd.m
+  and igp-background-rd.mat
+
+
+---------------------------------------------------------------------------------------------
+** Release 1.0b0, 7 July 2024 ** 
+---------------------------------------------------------------------------------------------
+First Beta release to NAM
+
+Known software issues:
+- The prediction module has some known issues with co-located points (major, under investigation)
+- Not all plot functions have a saveplt option (minor, for next release)
+- Insar reduction may output "empty" shallowLos component (minor, easy work around via settings, but
+  needs further investigation)
+
+Known data issues:
+- Only tested with waddenzee data (v6 and v7)
+- In v7, the newly added Schiermonnikoog levelling dataset causes a singularity during integration,
+  has been excluded (temporarily) from the integration
+- Not (yet) tested with Groningen data (only older software versions)
+- Test on simulated data not yet ported to this version 
+
+Changes since previous release:
+
+2024-07-04 by HM:
+- IGPTEMPLATES: moved templates to new folder, added many new comments (e.g. what's next)
+  to scripts, many examples of plotting stmplot_examples.m
+- IGPPROJECTS: redone processing after many changes to the software on existing datasets (v6),
+  started new project folder with processing for updates datasets (v7)
+2024-06-18 by HM
+- STMMAIN: cupido2stm remove points with less than opt.minObs(=2) observations
+- STMUTIL: many improvements to stmplotseries, stmplotvel and stmtrans
+2024-05-16 by HM
+- STMUTIL: implementation of several S-transformation methods for stmplotseries
+2024-03-14 by HM
+- STMUTIL: added subdirectory with shapefiles for basemaps
+2024-03-07 by HM
+- STMINTEGRATE: major modifications
+- STMMAIN: several minor modifications
+- STMUTIL: several minor modifications
+2024-01-08 by FvL
+- STMREDUCEINSAR: major modifications  
+     + numLevels now consistent between variables (obsData, stochModel, sensitivityMatrix)
+	 + numLevels now a variable
+	 + separation between deep and shallow is now an option (for some  datasets the shallow 
+	   part was all nan's)
+2023-10-27 by HM
+- STMMAIN: updated stmreduceinsar (minor fix in datasetId)
+2023-10-26 by HM
+- STMMUTIL:updated stmread (NOSTOCHDATA) and stmdisp (many new outputs)
+2023-10-23 by HM
+- STMMAIN: added Contents.m
+- STMUTIL: updated Contents.m
+- STMUTIL: added stmplotvel, stmplotmap, stmplotprojectmap, stmresplot 
+- STMUTIL: updated stmresplot.m, stmplotseries.m, stmdisp.m (minor changes)
+- STMUTIL/test: added stmplot_test.m, igp-background.mat, igp-unstablearea.mat 
+2023-10-09 by HM
+- STMUTIL: added stmvelocity.m 2023-10-09 by HM
+2023-10-06 by HM
+- STMMAIN: updated cupido2stm (correct units of mm) 
+
+
+---------------------------------------------------------------------------------------------
+** Release 1.0a, 28 September 2023 ** 
+---------------------------------------------------------------------------------------------
+Alpha release for internal use. 
+

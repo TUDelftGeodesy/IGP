@@ -1,0 +1,5 @@
+sensor,mode,model,s20 [mm2],s2t [mm2],s2s [mm2],Rt [years],Rs [km]
+RadarSAT-2,Standard,tudinsar4,7.93,5.5,3.9,0.67,1.11
+RadarSAT-2,XF,tudinsar4,7.93,5.5,3.9,0.67,1.11
+Sentinel-1,IW,tudinsar4,9.49,4.53,4.96,0.70,1.09
+TerraSAR,Stripmap,tudinsar4,6,4,4,0.7,1.1
