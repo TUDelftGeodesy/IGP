@@ -13,7 +13,7 @@ The processing modules are divided into
 
 1. **Initialization**: Transforms the original datasets into the common Space-Time Matrix (STM) dataformat. 
   
-2. **Reduction**: Reduces the GNSS CORS and InSAR data to common evaluation points and epochs. 
+2. **Selection, Decomposition and Reduction**: Reduces the GNSS CORS and InSAR data to common evaluation points and epochs. 
    
    a. Selection of evaluation points and epochs from all available input space time matrix datasets.
 
@@ -28,7 +28,7 @@ The processing modules are divided into
 
 4. **Prediction**: Least-squares prediction to any desired location and time.
 
-The software comes with a number of utility tools to display and visualize the contents of space time matrices. These tools include a simple display of the space time datasets meta data, plotting of the space time dataset network map, time series, estimate velocities and covariance matrix, and plotting and gridding of predicted displacements.  
+9. **Output and visualization**: The software comes with a number of utility tools to display and visualize the contents of space time matrices. These tools include a simple display of the space time datasets meta data, plotting of the space time dataset network map, time series, estimate velocities and covariance matrix, and plotting and gridding of predicted displacements.  
 
 ## Software Installation
 
